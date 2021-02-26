@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+
+:root {
+    --primary-color:rgb(122, 171, 236);
+    --secondary-color: rgb(0, 110, 255);
+    
+
+
+}
+html, body {
+    font-family: 'courgette';
+    margin:0;
+    background: rgb(141, 27, 36);
+   
+}
+
+.container header h1{
+    font-size: 35px;
+    color: rgb(219, 214, 184);
+    text-align: center;
+}
+.container .promo-pic {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/redtree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:block;
+    
+     
+}
+.welcome h3{
+    font-size: 2rem;
+    margin-left: 65px;
+    color: rgb(219, 214, 184);
+  
+
+}
+.invite p{
+    font-size: -1rem;
+    text-align: center;
+    color: rgb(219, 214, 184);;
+
+}
+.welcome .start {
+    text-align: center;
+}
+
+img{
+    width:40%;
+    height:20%
+    
+}
+.login {
+    text-align: center;
+
+}
+
+
+
+
+
+

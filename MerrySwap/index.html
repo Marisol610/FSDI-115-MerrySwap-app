@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>MerrySwap</title>
+</head>
+
+<!--Welcome screen!-->
+
+<body>
+    <section class="container">
+        <header class="app-pic">
+            <div class="container">
+                <h1>MerrySwap</h1>
+                <img src="images/redtree.jpg" alt="" class="home-pic">
+            </div>
+        </header>
+
+
+        <div class="container">
+            <div class="welcome">
+                <div class="invite">
+                    <h3> Welcome to our community.</h3>
+                    <p>Come swap your christmas ornaments, trees and other holiday items with our
+                        amazing community.
+                    </p>
+                    <div class="start">
+                        <a href="#login" class="btn" id="login-acc"> Get Started</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Log In screen-->
+    <div class="login">
+        <img src="images/redtree.jpg" alt="" class="promo-pic">
+        <h3>Log In<h3>
+                <input type="text" class="username" placeholder="Enter Username">
+                <input type="text" class="username" placeholder="Enter Password">
+                <div class="login2">
+                    <button>Log In</button>
+                    <a href="#newuser" class="btn" id="create-acc">Create Account</a>
+                </div>
+
+                <!--New user profile screen-->
+                <div class="new-profile">
+                    <div>
+                        <h3>Create User Profile</h3>
+                        <img src="images/mypic.jpg" alt="" class="profile-pic">`
+
+                        <form>
+                            <input type="text" class="user-location" placeholder="Enter location">
+                            <input type="text" class="user-mobile" placeholder="Enter mobile #">
+                        </form>
+                        <button>Submit</button>
+                    </div>
+
+                    <!--user account screen-->
+                    <div class="user-acc">
+                        <div>
+                            <h3>Users Account<h3>
+                                    <img src="images/mypic.jpg" alt="" class="prof-acc">
+                                    <p>User Location</p>
+                        </div>
+
+                        <section id=" post-delete">
+                            <div class="container">
+                                <a href="#post" class="btn" id="new-post">New Post</a>
+                                <a href="#delete" class="btn" id="delete-post">Delete Post</a>
+                            </div>
+                        </section>
+
+                        <section id="your posts">
+                            <div class="yourpost">
+                                <h3>Your Posts</h3>
+
+                        </section>
+
+                        <section id="items">
+                            <div class=container>
+                                <div class="image">
+                                    <img src="images/tree.jpg" alt="" class="pic1">
+                                    <h2>Blue & Silver Ornaments</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium aperiam
+                                        impedit quam
+                                        aspernatur ut nihil labore.</p>
+                                </div>
+                        </section>
+
+                        <section id="item-list">
+
+                            <div class="image">
+                                <img src="images/snowman.jpg" alt="" class="pic2">
+                                <h2>Blue & Silver Ornaments</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium aperiam impedit
+                                    quam
+                                    aspernatur ut nihil labore.</p>
+                            </div>
+
+                            <div class="image">
+                                <img src="images/mixed.jpg" alt="" class="pic3">
+                                <h2>Blue & Silver Ornaments</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium aperiam impedit
+                                    quam
+                                    aspernatur ut nihil labore.</p>
+                            </div>
+
+                            <section id="page">
+                                <div class="container">
+                                    <div class="pages">
+                                        <h2>Page 1 of 2</h2>
+                                        <a href="#moreitems" class="btn" id="more-items">Next</a>
+                                        <button type="text" class="btn-1">Start swapping<button>
+                                    </div>
+
+                            </section>
+
+                            <section id="post">
+                                <div class="container">
+                                    <div class="post-item">
+                                        <h3>Post Item</h3>
+                                        <a href="#clear" class="btn" id="clear-item">Clear</a>
+
+                                        <section id="prod-image">
+                                            <img src="images/ornaments.jpg" alt="" class="promo-pic">
+                                            <icon>camera</icon>
+                                        </section>
+
+                                        <section id="sub-image">
+                                            <img src="images/ornaments.jpg" alt="" class="promo-pic">
+                                            <h2>Title</h2>
+                                            <form>
+                                                <input type="text" class="title" placeholder="Enter item title">
+                                                <input type="text" class="description" placeholder="Enter description">
+
+                                                <input type="text" class="category" placeholder="Category">
+
+                                            </form>
+
+                                            <a href="#useracc" class="btn" id="clear-item">Previous</a>
+                                            <button>Post</button>
+                                            <a href="#list" class="btn" id="clear-item">Next</a>
+
+
+                                        </section>
+
+                                        <section id="list">
+                                            <div class="useracc">
+                                                <h3>User Account</h3>
+                                                <p>All Items</p>
+                                            </div>
+                                        </section>
+
+                                        <section id="search">
+                                            <div class="itemlist">
+                                                <form>
+                                                    <h3>Search</h3>
+
+                                                    <input type="text" class="search" placeholder="Search by Category">
+                                                </form>
+                                            </div>
+                                        </section>
+
+                                        <section id="image">
+                                            <div class=container>
+                                                <div class="image1">
+                                                    <img src="images/ornaments.jpg" alt="" class="photo1">
+                                                    <h2>Blue & Silver Ornaments</h2>
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Praesentium aperiam
+                                                        impedit quam
+                                                        aspernatur ut nihil labore.</p>
+                                                </div>
+
+                                                <div class="image2">
+                                                    <img src="images/mixed.jpg" alt="" class="photo2">
+                                                    <h2>Traditional Ornaments</h2>
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Praesentium aperiam
+                                                        impedit quam
+                                                        aspernatur ut nihil labore.</p>
+                                                </div>
+
+                                                <div class="image3">
+                                                    <img src="images/diamond.jpg" alt="" class="photo3">
+                                                    <h2>Red Diamonds Ornaments</h2>
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Praesentium aperiam
+                                                        impedit quam
+                                                        aspernatur ut nihil labore.</p>
+                                                </div>
+
+                                                <div class="image4">
+                                                    <img src="images/tree.jpg" alt="" class="photo4">
+                                                    <h2>Glass Tree Ornaments</h2>
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Praesentium aperiam
+                                                        impedit quam
+                                                        aspernatur ut nihil labore.</p>
+                                                </div>
+
+                                                <div class="image5">
+                                                    <img src="images/snowman.jpg" alt="" class="photo5">
+                                                    <h2>Snowman Ornaments</h2>
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Praesentium aperiam
+                                                        impedit quam
+                                                        aspernatur ut nihil labore.</p>
+                                                </div>
+
+                                                <a href="#useracc" class="btn" id="clear-item">Previous</a>
+
+                                                <a href="#list" class="btn" id="clear-item">Next</a>
+
+
+                                                <!--Steps-->
+                                                <section id="steps">
+                                                    <div class="step1">
+                                                        <div class="selected">
+                                                            <h4>Step1</h4>
+                                                            <p>Item Selected</p>
+                                                            <img src="images/ornaments.jpg" alt="" class="promo-pic">
+                                                        </div>
+                                                    </div>
+                                                </section>
+
+                                                <section id="purchase">
+                                                    <div class="prod-info">
+                                                        <div class="shipping">
+                                                            <a href="#purchase" class="btn" id="swap-item">Swap</a>
+                                                            <a href="#message" class="btn" id="messages">Message
+                                                                Seller</a>
+
+
+                                                            <p>Item shipping out of:</p>
+
+                                                            <a href="#useracc" class="btn" id="clear-item">Previous</a>
+                                                            <a href="#process" class="btn" id="swap-item">Continue</a>
+
+                                                            <a href="#list" class="btn" id="clear-item">Next</a>
+
+                                                            <section id="offer">
+                                                                <div class="step2">
+                                                                    <div class="makeoffer">
+                                                                        <h3>Step2</h3>
+                                                                        <h3>Make Offer</h3>
+                                                                        <img src="images/ornaments.jpg" alt=""
+                                                                            class="promo-pic">
+                                                                        <p>Description</p>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </section>
+
+                                                            <section id="price">
+                                                                <div class="price">
+                                                                    <div class="container">
+                                                                        <p>Price + Shipping</p>
+                                                                        <p>Make an Offer</p>
+                                                                        <form>
+                                                                            <input type="text" class="username"
+                                                                                placeholder="Enter your offer $$$">
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+
+                                                            <section id="submit">
+                                                                <div class="offer">
+                                                                    <div class="container">
+                                                                        <button>Make Offer</button>
+                                                                        <button>Continue</button>
+                                                                        <button>Back</button>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+
+
+                                                            <section id="subtotal">
+                                                                <div class="step3">
+                                                                    <div class="payment">
+                                                                        <h3>Step3</h3>
+                                                                        <h3>Process Payment</h3>
+                                                                        <a href="#home" class="btn"
+                                                                            id="home-page">Home</a>
+                                                                        <a href="#help" class="btn" id="help">Help</a>
+                                                                        <img src="images/ornaments.jpg" alt=""
+                                                                            class="promo-pic">
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+
+                                                            <section id="order">
+                                                                <div class="order">
+                                                                    <div class="container">
+
+                                                                        <p>Description $$$</p>
+                                                                        <p>Ask Price $$$</p>
+                                                                        <p>Shipping $$$</p>
+                                                                        <p>Taxes $$$</p>
+
+                                                                        <button>Subtotal $$$</button>
+                                                                        <button>Continue</button>
+
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+
+                                                            <section id="payment">
+                                                                <div class="checkout">
+                                                                    <div class="container">
+                                                                        <h3>Step3</h3>
+                                                                        <h3>Process Payment</h3>
+                                                                        <a href="#home" class="btn"
+                                                                            id="home-page">Home</a>
+                                                                        <a href="#help" class="btn" id="help">Help</a>
+                                                                        <img src="images/ornaments.jpg" alt=""
+                                                                            class="promo-pic">
+                                                                        <p>Description</p>
+                                                                        <p>Subtotal $$$</p>
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+
+
+                                                            <section id="paymethod">
+                                                                <div class="creditcard">
+                                                                    <div class="container">
+                                                                        <h2>Payment Method</h2>
+                                                                        <p>Visa Icon</p>
+                                                                        <p>Pay Pal Icon</p>
+                                                                        <p>Discovery Icon</p>
+
+                                                                        <form>
+                                                                            <input type="text" class="cardnum"
+                                                                                placeholder="Enter Card Number">
+
+                                                                            <input type="text" class="expdate"
+                                                                                placeholder="Enter expiration date">
+
+                                                                            <input type="text" class="billingadd"
+                                                                                placeholder="Enter billing address">
+                                                                        </form>
+                                                                        <button>Next</button>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+
+
+
+                                                </section>
+
+
+
+
+
+
+
+
+                                        </section>
+                                    </div>
+                            </section>
+
+                    </div>
+                    </section>
+
+
+
+
+
+                </div>
+    </div>
+
+</body>
+
+</html>
